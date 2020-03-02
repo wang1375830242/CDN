@@ -1,2 +1,2 @@
 # CDN
-https://www.sakura521.cn的CDN搭建
+https://www.sakura521.cn CDN的搭建
