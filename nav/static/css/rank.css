@@ -1,0 +1,33 @@
+.bg{width:100%;height:630px;background: #0299d8;background: -o-linear-gradient(45deg, #ffb821 0, #ff5c38 33%, #ff1459 66%, #b8e7ff 100%);background: linear-gradient(90deg,#ffb821 33%,#ff5c38 66%,#ff1459);background-size: 400%;background-position: 0 100%;-webkit-animation: gradient 7.5s ease-in-out infinite;animation: gradient 7.5s ease-in-out infinitebackground-size: cover;margin-top:-71px;position:relative}
+.bg img{width:700px;display:block;margin:0 auto;top:180px;position:absolute;left:50%;margin-left:-350px}
+@-webkit-keyframes gradient {50% {background-position: 100% 0}}
+@keyframes gradient {50% {background-position: 100% 0}}
+header{background:transparent;border-bottom:1px solid rgba(255,255,255,0.2);position:relative;z-index:99}
+header >div nav div>a,header >div .time-winter .time,header >div .time-winter .winter{color:#FFF!Important}
+header >div nav .hover,header >div nav div>a:hover{color:#FFF}
+header >div nav .border-bottom:after{background:#FFF}
+header >div nav .border-bottom{background:transparent}
+article{padding-top:0;margin-top:-150px;position:relative;z-index:99}
+.date{width:100%;display:none;margin:30px auto;border-radius:3px;overflow:hidden}
+.date li{width:33.333333%;background:#fff5e9;float:left;height:50px;line-height:50px;text-align:center}
+.date li:nth-child(2){border-left:1px solid #ffe7c9;border-right:1px solid #ffe7c9}
+.date li a{color:#d29653;font-size:15px;display:block;cursor:pointer}
+.date .hover{background:#efc495}
+.date .hover a{color:#FFF}
+.lists{background:#FFF;margin-top:-160px;border-radius:3px}
+.lists li{border-bottom:1px solid #f6f6f6;padding:40px}
+.lists li:nth-last-child(1){border-bottom:0}
+.lists li:nth-child(1) .number{color:#ed6c69;background:url("../img/favor-first.png") no-repeat center center / 70%}
+.lists li:nth-child(2) .number{color:#f5c344;background:url("../img/favor-second.png") no-repeat center center / 70%}
+.lists li:nth-child(3) .number{color:#539af7;background:url("../img/favor-third.png") no-repeat center center / 70%}
+.lists li .number{color:#c3c3c3;display:block;width:45px;margin-right:26px;text-align:center;font-size:26px;line-height:75px;height:75px;overflow:hidden;float:left;font-style:normal}
+.lists li .weblogo{float:left;height:75px;line-height:75px;width:280px;margin-right:20px}
+.lists li .weblogo img{max-width:70%;max-height:100%}
+.lists li .introduce{padding:10px 0;line-height:31px;float:left;width:calc(100% - 45px - 26px - 300px - 200px - 170px);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:15px;color:#9c9c9c}
+.lists li .click{margin-left:50px;float:left;width:150px;line-height:75px;height:75px;font-size:15px;color:#ff8d10}
+.lists li .go{margin-left:50px;float:left;width:120px;background:#FFF;text-align:center;height:44px;color:#a2a2a2;border:1px solid #ececec;line-height:44px;font-size:15px;border-radius:25px;margin-top:15.5px}
+.type{width:1400px;max-width:calc(100% - 50px);margin:0 auto;position:relative;height:100%}
+.type ul{position:absolute;right:0;bottom:199px;right: 50px;}
+.type li a{display:block;height:45px;line-height:45px;width:150px;font-size:15px;border-radius:3px;text-align:center;margin-bottom:10px;color:#FFF}
+.type li .hover{color:#ff0f41;background:#FFF}
+.list_li{box-shadow:0 -1px 18px rgba(0,0,0,0.12)}

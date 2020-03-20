@@ -1,0 +1,33 @@
+.fenlei{margin-top:13px;background:#FFF;padding:25px 33px;padding-bottom:10px}
+.fenlei ul{margin-top:25px}
+.fenlei ul li{margin-right:25px;margin-bottom:20px;float:left;width: calc((100% - (25px * 9)) / 10);}
+.fenlei ul li:nth-child(10n){margin-right:0}
+.fenlei ul li a{display:block;height:38px;line-height:38px;padding:0 10px;text-align:center;border:1px solid #efefef;color:#737373;border-radius:2px}
+.fenlei ul li a:hover{border:1px solid #20c4ab;background:#20c4ab;color:#FFF}
+.fenlei ul li .hover{border:1px solid #20c4ab;background:#20c4ab;color:#FFF}
+.lists{margin-top:13px}
+.lists ul li{background:#FFF;float:left;width:33.33333%;border-right:1px solid #f6f6f6;border-top:1px solid #f6f6f6;padding:40px;height:221px;overflow:hidden}
+.lists ul li:hover{background:#fdfdfd}
+.lists ul li:nth-child(3n){border-right:0}
+.lists ul li:nth-child(1),.lists ul li:nth-child(2),.lists ul li:nth-child(3){border-top:0}
+.lists ul li a{display:block}
+.lists ul li a .img{width:100%;height:80px;overflow:hidden}
+.lists ul li a .img img{display:block;margin:0 auto;max-height:100%;max-width:200px}
+.lists ul li a .introduce{color:#b3b3b3;font-size:14px;line-height:23px;height:46px;padding:0 5%;margin-top:15px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.lists ul .layui-flow-more{display:block;float:left;width:100%;margin-top:30px;font-size:14px}
+.lists ul .layui-flow-more a{height:41px;line-height:41px}
+.lists ul .layui-flow-more a cite{padding:0 30px;font-size:14px}
+.searchweb{height:44px}
+.searchweb h3{float:left;line-height:44px}
+.searchweb form{border:1px solid #efefef;background:#FFF;float:right;border-radius:20px;overflow:hidden}
+.searchweb form input[type=text]{height:42px;line-height:42px;border:0;float:left;background:0;width:250px;padding-left:30px;font-size:14px}
+.searchweb form input[type=submit]{height:42px;line-height:42px;border:0;background:0;float:left;width:60px;text-align:center;cursor:pointer}
+.lists{background: #FFF;min-height:calc(100vh - 71px - 39px - 180px - 220px)}
+/*分页*/
+.text-center{text-align: center;}
+.padding-10{padding:10px;}
+.padding-10 .pagination{display: inline-block;vertical-align: middle;padding: 10px 0;}
+.padding-10 .pagination li{display: inline-block;}
+.padding-10 .pagination .active span{border-color: #20c4ab;color: #fff !important;border-radius: 2px;background-color: #20c4ab;}
+.padding-10 .pagination li a,.pagination li span{display: inline-block;border-radius: 3px;padding: 10px 24px;color: rgba(0,0,0,.44);font-size: 14px;margin: 4px;background: #fdfdfd;}
+.padding-10 .pagination li .active span,.pagination li a:hover{border-color: #20c4ab;color: #20c4ab;border-radius: 2px;background-color: #20c4ab;color: #fff !important;}

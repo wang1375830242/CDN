@@ -1,0 +1,38 @@
+.content{background: #fff;padding: 15px 15px;margin-top: 20px;}
+.content >.left{border-right:1px solid #f6f6f6;width:180px;overflow:hidden;}
+.content >.left li{margin-bottom:15px}
+.content >.left li a{height:55px;line-height:55px;display:block;font-size:15px;padding-left:30px;padding-right:10px;overflow:hidden;cursor:pointer;color:#333;transition:.2s all}
+.content >.left li a:hover{color:#20c4ab}
+.content >.left li a img{height:18px;width:18px;vertical-align:middle;margin-top:-3px;margin-right:12px}
+.content >.left li .hover{color:#FFF;border-radius: 0px 50px 50px 0px;background: linear-gradient(90deg,#6df548 0,#24ed7a 45%,#00d29f);}
+.content >.left li .hover:hover{color:#FFF}
+.content >.right{width:calc(100% - 180px - 20px);}
+.content >.right .ulttile{padding:0 10px}
+.content >.right .ulttile div{float:left;font-size:15px;height:55px;line-height:55px;color:#333;padding-left:20px}
+.content >.right .ulttile div:nth-child(1){width:15%}
+.content >.right .ulttile div:nth-child(2){width:40%}
+.content >.right .ulttile div:nth-child(3){width:17.5%}
+.content >.right .ulttile div:nth-child(4){width:17.5%}
+.content >.right .ulttile div:nth-child(5){width:10%;padding-left:0;text-align:center}
+.content >.right .updatelist{position:relative;margin-top:20px;min-height:600px}
+.content >.right .updatelist li{padding:15px 10px}
+.content >.right .updatelist li:hover{background:#fbfbfb}
+.content >.right .updatelist li div{float:left;font-size:15px;height:35px;line-height:33px;color:#333;padding-left:20px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+.content >.right .updatelist li div:nth-child(1){width:15%}
+.content >.right .updatelist li div:nth-child(2){width:40%}
+.content >.right .updatelist li div:nth-child(2) .url{color:#333!important}
+.content >.right .updatelist li div:nth-child(3){width:17.5%}
+.content >.right .updatelist li div:nth-child(4){width:17.5%}
+.content >.right .updatelist li div:nth-child(5){width:10%;padding-left:0}
+.content >.right .updatelist li div:nth-child(5) .open{border:1px solid #ececec;background:#FFF;display:block;width:83px;text-align:center;color:#333;font-size:14px;border-radius:19px;max-width:100%;overflow:hidden;margin:0 auto;transition:.2s all}
+.content >.right .updatelist li div:nth-child(5) .open:hover{color:#333}
+.content >.right .updatelist li .new-time{color:#f94c30}
+/*分页*/
+.text-center{text-align: center;background: #fff;}
+.padding-10{padding:10px;}
+.padding-10 .pagination{display: inline-block;vertical-align: middle;padding: 10px 0;}
+.padding-10 .pagination li{display: inline-block;}
+.padding-10 .pagination .active span{border-color: #20c4ab;color: #fff !important;border-radius: 2px;background-color: #20c4ab;}
+.padding-10 .pagination li a,.pagination li span{display: inline-block;border: 1px solid #ddd;border-radius: 3px;padding: 6px 20px;color: rgba(0,0,0,.44);font-size: 14px;margin: 4px;}
+.padding-10 .pagination li .active span,.pagination li a:hover{border-color: #20c4ab;color: #20c4ab;border-radius: 2px;background-color: #20c4ab;color: #fff !important;}
+#page{text-align:center;}
