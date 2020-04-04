@@ -924,6 +924,9 @@ big {
 html {
     box-sizing:border-box
 }
+* {
+    box-sizing:border-box
+}
 *:before,*:after {
     box-sizing:inherit
 }
@@ -7460,9 +7463,6 @@ to {
 }
 .Ubuntu-font {
     font-family:'Ubuntu',sans-serif
-}
-.serif {
-    font-family:'Source Han Serif SC','Source Han Serif','source-han-serif-sc','PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif
 }
 @media(max-width:860px) {
     .serif {
